@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Study Buddy</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #4f46e5;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: white;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #4f46e5;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        .features {
+            padding: 50px 8%;
+            text-align: center;
+        }
+
+        .features h2 {
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 30px 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 Study Buddy</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#features">Features</a>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <h2>Study Smarter, Together 🚀</h2>
+
+        <p>
+            A student-friendly website for studying,
+            managing tasks and solving doubts.
+        </p>
+
+        <a href="#features" class="btn">Get Started</a>
+    </section>
+
+
+    <section class="features" id="features">
+
+        <h2>What Study Buddy Offers</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📅 Study Schedule</h3>
+                <p>
+                    Create and manage your daily study schedule.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>✅ To-Do List</h3>
+                <p>
+                    Keep track of assignments and important tasks.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>❓ Doubt Solving</h3>
+                <p>
+                    Get help with difficult topics and questions.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>⏱️ Study Timer</h3>
+                <p>
+                    Focus on your studies using a simple study timer.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>© 2026 Study Buddy | Made for Students ❤️</p>
+    </footer>
+
+</body>
+</html>
